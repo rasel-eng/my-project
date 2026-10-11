@@ -4,7 +4,7 @@ const app = express();
 
 app.get("/", (req, res) => {
   res.json({
-    message: "Hello from my AWS CI/CD project!",
+    message: "Automatic Deployment Test Successful!",
     status: "success"
   });
 });
